@@ -20,8 +20,8 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                python3 hello.py
-                python3 hello.py --name=Brad
+                python3 helloworld.py
+                python3 helloworld.py --name=Brad
                 '''
             }
         }
